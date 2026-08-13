@@ -205,14 +205,7 @@ function restartGame() {
 }
 
 btnViewCollection.addEventListener('click', () => {
-  const isHidden = stampsCollectionWrap.hasAttribute('hidden');
-  if (isHidden) {
-    stampsCollectionWrap.removeAttribute('hidden');
-    btnViewCollection.innerHTML = '🙈 ซ่อนคอลเลกชัน';
-  } else {
-    stampsCollectionWrap.setAttribute('hidden', '');
-    btnViewCollection.innerHTML = '📖 ดูคอลเลกชัน';
-  }
+  window.location.href = 'https://phakpum.github.io/03-home/index.html';
 });
 
 function getIdleSkillLabel() {
