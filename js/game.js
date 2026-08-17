@@ -205,7 +205,7 @@ function restartGame() {
 }
 
 btnViewCollection.addEventListener('click', () => {
-  window.location.href = 'https://phakpum.github.io/03-home/index.html';
+  window.location.href = `https://phakpum.github.io/06-stamp-received/index.html?zone=monkey&points=${score}`;
 });
 
 function getIdleSkillLabel() {
